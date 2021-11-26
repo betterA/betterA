@@ -17,6 +17,25 @@ Here are some ideas to get you started:
 ### betterA ✈️ ![](https://views.whatilearened.today/views/github/betterA/betterA.svg)
 
 
-![](https://github-readme-stats.vercel.app/api?username=betterA&show_icons=true&line_height=21&show_icons=true&theme=vue&hide_border=true)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=betterA&show_icons=true&layout=compact&theme=vue&hide_border=true&hide=html,css)
+```python
+from __future__ import annotations
+
+import json
+from dataclasses import asdict, dataclass
+
+
+@dataclass
+class Arsenal:
+    languages: tuple[str, ...] = ("Python", "JS", "Go")
+    databases: tuple[str, ...] = ("SQLite", "MySQL", "MongoDB", "Redis")
+    misc     : tuple[str, ...] = ("Docker", "Celery", "RabbitMQ", )
+    ongoing  : tuple[str, ...] = ("Django", "DRF", "Asyncio")
+
+    def jsonify(self) -> str:
+        return json.dumps(asdict(self), indent=4)
+
+
+arsenal = Arsenal()
+print(arsenal.jsonify())
+```
 
