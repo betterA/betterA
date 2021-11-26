@@ -15,7 +15,6 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 ### betterA ✈️ ![](https://views.whatilearened.today/views/github/betterA/betterA.svg)
-do better a man
 
 
 ```python
