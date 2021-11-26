@@ -19,4 +19,4 @@ Here are some ideas to get you started:
 
 ![](https://github-readme-stats.vercel.app/api?username=betterA&show_icons=true&line_height=21&show_icons=true&theme=vue&hide_border=true)
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=betterA&show_icons=true&layout=compact&theme=vue&hide_border=true&hide=html,css)
-![github contribution grid snake animation](https://raw.githubusercontent.com/betterA/betterA/output/github-contribution-grid-snake.svg)
+
