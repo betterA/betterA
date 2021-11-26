@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-### Ehco1996 ✈️ ![](https://views.whatilearened.today/views/github/betterA/betterA.svg)
+### betterA ✈️ ![](https://views.whatilearened.today/views/github/betterA/betterA.svg)
 
 
 ![](https://github-readme-stats.vercel.app/api?username=betterA&show_icons=true&line_height=21&show_icons=true&theme=vue&hide_border=true)
