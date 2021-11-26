@@ -25,7 +25,7 @@ from dataclasses import asdict, dataclass
 
 
 @dataclass
-class betterA:
+class BetterA:
     languages: tuple[str, ...] = ("Python", "JS", "Go")
     databases: tuple[str, ...] = ("SQLite", "MySQL", "MongoDB", "Redis")
     misc     : tuple[str, ...] = ("Docker", "Celery", "RabbitMQ", )
@@ -35,7 +35,7 @@ class betterA:
         return json.dumps(asdict(self), indent=4)
 
 
-arsenal = Arsenal()
-print(arsenal.jsonify())
+bettera = BetterA()
+print(bettera.jsonify())
 ```
 
